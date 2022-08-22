@@ -44,7 +44,7 @@ Console.WriteLine("Число " + max + " больше");
 
 Console.WriteLine("Введите число ");
 double a = Int32.Parse(Console.ReadLine());
-if (a % 2! < 1)
+if (a % 2== 0)
 {
     Console.WriteLine("Число четное");
 }
